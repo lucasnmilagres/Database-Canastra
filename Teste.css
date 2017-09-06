@@ -1,0 +1,10 @@
+#toolbar {
+  position: absolute;
+  top: 7px;
+  left: 5px;
+}
+#cesiumContainer{
+    position:absolute;
+    top:0;
+    left:0;
+}
