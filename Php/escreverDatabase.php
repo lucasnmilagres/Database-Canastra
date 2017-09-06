@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect("localhost","username","password") or    die('Could not connect: ' . mysqli_error());
+$conn = mysqli_connect("localhost","root","password") or    die('Could not connect: ' . mysqli_error());
 
 mysqli_select_db($conn,"Canastra") or	die('Could not connect to specific database: ' . mysqli_error());
 
